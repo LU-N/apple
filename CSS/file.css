@@ -1,0 +1,826 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+
+.mydiv2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+.mydiv5{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1000px;
+}
+.mydiv6{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+}
+.mydiv7 img{
+	position: absolute;
+	top: 1065px;
+	width: 70%;
+	left: 290px;
+}
+.mydiv8 img{
+	position: absolute;
+	width: 34%;
+	height: 80%;
+	left:290px;
+	top:1810px;
+}
+
+.mydiv9 img{
+	position: absolute;
+	width: 34%;
+	height: 80%;
+	left:982px;
+	top:1810px;
+}
+.mydiv10 img{
+	position: absolute;
+	width: 35px;
+	height: 44px;
+	left: 860px;
+	top: 100px;
+}
+.mydiv11 img{
+	position: absolute;
+	width: 35px;
+	height: 44px;
+	left: 860px;
+	top: 100px;
+}
+.mydiv12 img{
+	position: absolute;
+	width: 70px;
+	height: 30px;
+	left: 1000px;
+	top: 1150px;
+}
+.mydiv13 img{
+	position: absolute;
+	width: 25px;
+	height: 30px;
+	left: 850px;
+	top: 1150px;
+}
+.mydiv14 img{
+	position: absolute;
+	width: 25px;
+	height: 30px;
+	left: 470px;
+	top: 1860px;
+}
+.mydiv15 img{
+	position: absolute;
+	width: 25px;
+	height: 30px;
+	left: 1190px;
+	top: 1860px;
+}
+.mydiv3{
+	padding: 0px;
+	position: absolute;
+	width: 100%;
+	height: 1300px;
+}
+.mydiv3 img{
+	height: 80%;
+	width: 100%
+}
+.mydiv4{
+	position: absolute;
+	margin-top: 1090px;
+	margin-left: 200px;
+	width: 80%;
+	height: 800px;
+}
+.mydiv4 img{
+	height: 100%;
+	width: 100%
+}
+.mydiv{	
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height:43px;
+	background: #333333;
+	min-width: 1200px;
+	position: relative;
+	left:0px;
+	}
+.mydiv1{
+	position: relative;
+	width: 100%;
+	height: 39px;
+	left:450px;
+	top: 1px;
+	vertical-align:middle;
+	}
+.mydiv1 a{
+	text-decoration: none;
+	color: aliceblue;
+}
+.mydiv1 a:hover{ 
+	color: gray;
+
+}
+li{
+	float: left;
+	font-family: "微软雅黑";
+	margin: 14px 85px 0px 5px;
+	color: aliceblue;
+	list-style: none;
+	font-size: 14px;
+	}
+
+.type{
+		font-size: 11px;
+	    font-weight:600;
+	    margin-left: 1px;
+		
+	}
+
+.sousuo{
+		margin-left:-5px; 
+	}
+.mac{
+	margin-top: 12px;
+}
+.ipad{
+	margin-top: 12px;
+}
+.iphone{
+		margin-left: -3px;
+		margin-top: 12px;
+	}
+.watch{
+		margin-left: 3px;
+		margin-top: 12px;
+	}
+.music{
+		margin-left: 3px;
+		margin-top: 12px;
+	}
+
+/*图片效果*/
+.ap  a
+{
+	margin-top: -4px;
+	width:17px;
+	height:30px;
+	background: url(../img/log/apple1.png)  no-repeat;
+	display:block;
+}s
+#sousuo  a
+{
+	width:17px;
+	height:20px;
+	margin-left: 6px;
+	background: url(../img/log/sousuo.png) no-repeat;
+	display:block;
+}
+.shop  a
+{
+	margin-top: -1px;
+	width:17px;
+	height:20px;
+	background: url(../img/log/shop.png) no-repeat;
+	display:block;
+}
+
+
+
+.ap a:hover{
+	background: url(../IMG/log/apple2.png) no-repeat;
+	display:block;
+}
+#sousuo a:hover{
+	background: url(../img/log/sousuo1.png) no-repeat;
+	display:block;
+}
+
+.shop a:hover{
+	background: url(../img/log/shop1.png) no-repeat;
+	display:block;
+}
+/*banner*/
+#test{
+  width: 100%;
+  height: 500px;
+	background: white;
+  padding: 0px; 
+  margin: 50px auto;
+  perspective: 1000px;
+  box-sizing: border-box;
+  border-radius:20px;
+  position: relative;
+  padding-top:50px;
+  bottom:0px;
+}
+
+
+
+.body{
+  background: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius:20px;
+  
+}
+/*bottom*/
+.list{
+	background:blue; 
+	height:270px;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	top: 600px;
+	margin-top: 15%;
+}
+.bottom{
+	margin:0px;
+	width:25%;
+	height: 270px;
+	overflow: hidden;
+	position: relative;
+
+}
+.bottom img{
+	height: 100%;
+	width: 100%
+}
+
+
+.img-scroll-content{
+			border-radius:20px;
+			position: relative;
+			margin: 80px auto;
+			overflow: hidden;
+  			height:720px;
+ 		 	width:100%;
+  			transition: transform 0.1s;
+  			box-shadow: 0 0 15px rgba(0,0,0,0.25);
+  			text-align: center;
+  			line-height: 300px;
+  			font-size: 50px;
+  			color: #fff;
+  			box-sizing: border-box;
+  			border-radius:20px;
+  			background: white;
+  			padding: 0px; 
+  			perspective: 1000px;
+  			border-radius:20px; 
+			line-height: 300px;
+			font-size: 50px;
+			color: #fff;
+			box-sizing: border-box;
+  			overflow: hidden;
+
+}
+	
+		#test{
+			  width: 90%;
+			  height: 90%px;
+			  background: white;
+			  padding: 0px; 
+			  margin: 50px auto;
+			  perspective: 1000px;
+			  box-sizing: border-box;
+			  border-radius:20px;
+			  position: relative;
+			  padding-top:0px;
+			}
+        .body{
+			  background: white;
+			  padding: 20px;
+			  box-sizing: border-box;
+			  border-radius:20px;
+			  
+			}
+.div2{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height:110px;
+	background:#141414;
+	min-width: 1200px;
+	position: relative;
+	left:0px;
+	text-align: center;
+}
+.ul3{
+	padding-left:700px;
+	text-align: center;
+}
+
+.li4{
+	margin-left: -50px;
+}
+.li5{
+	margin-left: -60px;
+	margin-top: 30px;
+}
+.li6{
+	margin-left: -50px;
+	margin-top: 35px;
+}
+.li7{
+	margin-left: -45px;
+	margin-top: 23px;
+}
+.li8{
+	margin-left: -50px;
+	margin-top: 20px;
+}
+.li9{
+	margin-left: -150px;
+}
+.li10{
+	margin-left: -53px;
+}
+.li11{
+	margin-left: -55px;
+}
+.li12{
+	margin-left: -50px;
+}
+.li13{
+	margin-left: -55px;
+}
+.li14{
+	margin-left: -40px;
+}
+.li15{
+	margin-left: -40px;
+}
+.li16{
+	margin-left: -47px;
+	margin-top: 23px;
+}
+.li17{
+	margin-left: -54px;
+	margin-top: 23px;
+}
+
+.ul1{
+	
+	position:absolute;
+	margin-top: 1760px;
+	margin-left: 195px;
+	height: 500px;
+	width: 750px;
+	
+}
+.ul1 img{
+	height: 100%;
+	width: 100%;
+}
+.ul2{
+	margin-left: 825px;
+	margin-top: -734px;
+	height: 730px;
+	width: 660px;
+}
+.ul2 img{
+	height: 100%;
+	width: 100%;
+	
+}
+.ul4{
+	margin-left: 825px;
+	margin-top: -734px;
+	height: 730px;
+	width: 660px;
+}
+.ul4 img{
+	height: 100%;
+	width: 100%;
+	
+}
+.ul5{
+	margin-top: 50px;
+}
+.type1 a{
+	position: relative; 
+	top: 170px;
+	left:-10px;
+	font-size:25px;
+	color: #63b0ec;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type1 a:hover{
+	text-decoration: underline;
+	color: #63b0ec;
+}
+
+.type2 {
+	position: relative;
+	font-size:20px;
+	top: 190px;
+	left: 800px;
+	color:aliceblue;
+	font-family: "微软雅黑";
+	text-decoration: none;
+
+}
+
+
+.type3 {
+	position: relative;
+	font-size:50px;
+	top: 1350px;
+	left: 1025px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.type4 a{
+	position: relative;
+	font-size:20px;
+	top: 1370px;
+	left: 1310px;
+	color:aliceblue;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+.type4 a:hover{
+	text-decoration: underline;
+	color: aliceblue;
+}
+.type5 a{
+	position: relative;
+	font-size:20px;
+	top: 1400px;
+	left: 1170px;
+	color:aliceblue;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+.type5 a:hover{
+	text-decoration: underline;
+	color: aliceblue;
+}
+.type6 {
+	position: relative;
+	font-size:22px;
+	top: 1860px;
+	left: 1250px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+}
+
+.type7 {
+	position: relative;
+	font-size:45px;
+	top: 1880px;
+	left: 1085px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+}
+
+.type8 a{
+	position: relative;
+	font-size:17px;
+	top: 1900px;
+	left: 1250px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #1172c6;
+}
+.type8 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+	
+}
+.type9 {
+	position: relative;
+	font-size:45px;
+	top: 2560px;
+	left: 370px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+}
+.type10 {
+	position: relative;
+	font-size:20px;
+	top: 2570px;
+	left: 460px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+.type11 a{
+	position: relative;
+	font-size:15px;
+	top: 2600px;
+	left: 490px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #63b0ec;	
+}
+.type11 a:hover{
+	text-decoration: underline;
+	color: #63b0ec;
+}
+.type12 a{
+	position: relative;
+	font-size:16px;
+	top: 2610px;
+	left: 420px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #63b0ec;	
+}
+.type12 a:hover{
+	text-decoration: underline;
+	color: #63b0ec;
+}
+.type13 {
+	position: relative;
+	font-size:23px;
+	top: 2390px;
+	left: 1310px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+.type14 {
+	position: relative;
+	font-size:42px;
+	top: 2400px;
+	left: 1220px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type15 {
+	position: relative;
+	font-size:45px;
+	top: 2400px;
+	left: 1215px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type16 a{
+	position: relative;
+	font-size:17px;
+	top: 1878px;
+	left: 1380px;
+	color: aliceblue;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #1172c6;
+}
+.type16 a:hover{
+	text-decoration: underline;
+	color: #1172c6;	
+}
+.type17 a{
+	position: relative; 
+	top: 138px;
+	left:1000px;
+	font-size:25px;
+	color: #63b0ec;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type17 a:hover{
+	text-decoration: underline;
+	color: #63b0ec;
+}
+.type18 a{
+	position: relative;
+	font-size:20px;
+	top: 163px;
+	left: 880px;
+	color: #63b0ec;
+	font-family: "微软雅黑";
+	text-decoration: none;
+
+}
+.type18 a:hover{
+	text-decoration: underline;
+	color: #63b0ec;
+}
+.type19 a{
+	position: relative;
+	font-size:16px;
+	top: 2420px;
+	left: 1305px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: #1172c6;
+}
+.type19 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+}
+.type20 {
+	position: absolute;
+	font-size:39px;
+	font-weight:bolder;
+	text-align: center;
+	top: 100px;
+	left: 900px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type21 {
+	position: absolute;
+	font-weight: 900;
+	font-size:20px;
+	top: 150px;
+	left: 920px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type22 a{
+	position: relative; 
+	top: 150px;
+	left:-635px;
+	font-size:20px;
+	color: #1172c6;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type22 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+}
+.type23 a{
+	position: relative; 
+	top: 124px;
+	left:-490px;
+	font-size:20px;
+	color: #1172c6;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type23 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+}
+.type24 {
+	position: absolute;
+	font-weight: 900;
+	font-size:25px;
+	top: 1150px;
+	left: 880px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type25 {
+	position: absolute;
+	font-weight: 900;
+	font-size:12px;
+	top: 1180px;
+	left: 940px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type26 a{
+	position: relative; 
+	top: 1120px;
+	left:-620px;
+	font-size:20px;
+	color: #1172c6;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type26 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+}
+.type27 a{
+	position: relative; 
+	top: 1094px;
+	left:-480px;
+	font-size:20px;
+	color: #1172c6;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type27 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+}
+.type28 {
+	position: absolute;
+	font-weight: 900;
+	font-size:25px;
+	top: 1860px;
+	left: 500px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type29 {
+	position: absolute;
+	font-weight: 900;
+	font-size:25px;
+	top: 1860px;
+	left: 620px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type30 {
+	position: absolute;
+	font-weight: 900;
+	font-size:12px;
+	top: 1890px;
+	left: 580px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type31 a{
+	position: absolute; 
+	top: 1930px;
+	left: 510px;
+	font-size:20px;
+	color: #1172c6;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type31 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+}
+.type32 a{
+	position: absolute; 
+	top: 1930px;
+	left: 650px;
+	font-size:20px;
+	color: #1172c6;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type32 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+}
+.type33 {
+	position: absolute;
+	font-weight: 900;
+	font-size:25px;
+	top: 1860px;
+	left: 1220px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type34 {
+	position: absolute;
+	font-weight: 900;
+	font-size:25px;
+	top: 1860px;
+	left: 1330px;
+	color: #000000;
+	font-family: "微软雅黑";
+	font-weight:lighter;
+}
+.type35 {
+	position: absolute;
+	font-weight: 900;
+	font-size:12px;
+	top: 1890px;
+	left: 1290px;
+	color: #000000;
+	font-family: "微软雅黑";
+}
+.type36 a{
+	position: absolute; 
+	top: 1930px;
+	left: 1200px;
+	font-size:20px;
+	color: #1172c6;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type36 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+}
+.type37 a{
+	position: absolute; 
+	top: 1930px;
+	left: 1360px;
+	font-size:20px;
+	color: #1172c6;
+	font-family: "微软雅黑"; 
+	text-decoration: none;
+}
+.type37 a:hover{
+	text-decoration: underline;
+	color: #1172c6;
+}
